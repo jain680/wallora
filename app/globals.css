@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-warm-50 text-warm-900;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-warm-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-warm-700 transition-colors duration-200;
+  }
+  
+  .btn-secondary {
+    @apply bg-white text-warm-700 px-6 py-3 rounded-lg font-medium border-2 border-warm-300 hover:border-warm-400 transition-colors duration-200;
+  }
+  
+  .card {
+    @apply bg-white rounded-xl shadow-md p-6 border border-warm-200;
+  }
+}

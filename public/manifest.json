@@ -1,0 +1,24 @@
+{
+  "name": "Wallora",
+  "short_name": "Wallora",
+  "description": "Visualize your space with AI-powered interior design",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F9F8F6",
+  "theme_color": "#F9F8F6",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "orientation": "portrait",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "categories": ["lifestyle", "productivity", "design"]
+}
